@@ -1,0 +1,9 @@
+POST http://localhost:8080/flowers
+Content-Type: application/json
+
+{
+  "flowerType": "Rose",
+  "flowerColor": "Red",
+  "price": 10.5,
+  "available": true
+}
